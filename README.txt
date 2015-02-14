@@ -1,40 +1,40 @@
 ==============
-Trainee Challenge
+Trainee Challenge: HTML/CSS
 ==============
 
-Esse desafio testar· as principais habilidades que um desenvolvedor front-end deve possuir para transformar um mockup (desenho ainda n„o funcional da tela) em um protÛtipo. Veja abaixo, os passos que vocÍ deve executar para concluir o desafio.
+Esse desafio testar—Ä as principais habilidades que um desenvolvedor front-end deve possuir para transformar um mockup (desenho ainda n—Åo funcional da tela) em um prot–∑tipo. Veja abaixo, os passos que voc–ñ deve executar para concluir o desafio.
 
 
-InstruÁıes
+Instru—É—àes
 --------------
 
-- Forke esse repositÛrio e faÁa seu desafio numa branch chamada seunome_ano-mes-dia (use dois dÌgitos para as informaÁıes numÈricas).
+- Forke esse reposit–∑rio e fa—Éa seu desafio numa branch chamada seunome_ano-mes-dia (use dois d—ågitos para as informa—É—àes num–∂ricas).
 
-- Seu objetivo principal È transformar esse mockup em um protÛtipo funcional HTML/CSS da maneira mais idÍntica possÌvel (pixel-perfect).
+- Seu objetivo principal –∂ transformar esse mockup em um prot–∑tipo funcional HTML/CSS da maneira mais id–ñntica poss—åvel (pixel-perfect).
 
-- Seu HTML dever· ser o mais sem‚ntico possÌvel (tÌtulo devem usar H1, H2, ..., par·grafos deve usar P, formul·rios devem estar dentro de uma tag FORM, e assim por diante).
+- Seu HTML dever—Ä ser o mais sem–†ntico poss—åvel (t—åtulo devem usar H1, H2, ..., par—Ägrafos deve usar P, formul—Ärios devem estar dentro de uma tag FORM, e assim por diante).
 
-- Seu CSS n„o dever· ser inline (no arquivo HTML n„o dever· conter qualquer tipo de estilo). Todos os estilos devem estar num arquivo CSS externos ao HTML.
+- Seu CSS n—Åo dever—Ä ser inline (no arquivo HTML n—Åo dever—Ä conter qualquer tipo de estilo). Todos os estilos devem estar num arquivo CSS externos ao HTML.
 
-- Crie um diretÛrio chamado prototype. Todos os arquivos que vocÍ criar devem estar nesse diretÛrio. Se achar necess·rio, subdivida o diretÛrio da maneira que achar melhor.
+- Crie um diret–∑rio chamado prototype. Todos os arquivos que voc–ñ criar devem estar nesse diret–∑rio. Se achar necess—Ärio, subdivida o diret–∑rio da maneira que achar melhor.
 
-- Assim que concluÌdo o desafio, abra um pull request com suas alteraÁıes e envie um email para domphysis@contaazul.com entitulado Trainee Challenge: HTML/CSS contendo o link para o pull request.
+- Assim que conclu—ådo o desafio, abra um pull request com suas altera—É—àes e envie um email para domphysis@contaazul.com entitulado Trainee Challenge: HTML/CSS contendo o link para o pull request.
 
 
 Dicas
 --------
 
-- No diretÛrio guidelines vocÍ encontra o cÛdigo hexadecimal de todas as cores usadas no mockup.
+- No diret–∑rio guidelines voc–ñ encontra o c–∑digo hexadecimal de todas as cores usadas no mockup.
 
-- No diretÛrio mockup vocÍ encontra a imagem mockup-grided. Essa imagem exibe um grid onde cada quadrado equivale a 10 pixels (horizontal/vertical).
+- No diret–∑rio mockup voc–ñ encontra a imagem mockup-grided. Essa imagem exibe um grid onde cada quadrado equivale a 10 pixels (horizontal/vertical).
 
-- No diretÛrio images vocÍ encontra o logo do ContaAzul usado no mockup.
+- No diret–∑rio images voc–ñ encontra o logo do ContaAzul usado no mockup.
 
-- No diretÛrio webfonts vocÍ encontra as fonts usadas no mockup.
+- No diret–∑rio webfonts voc–ñ encontra as fonts usadas no mockup.
 
 - Jamais use !important nos estilos.
 
-- Em caso de d˙vida, envie um email para domphysis@contaazul.com ou peÁa um help para o seu Papai Smurf
+- Em caso de d–©vida, envie um email para domphysis@contaazul.com ou pe—Éa um help para o seu Papai Smurf
 
 
 Boa sorte!

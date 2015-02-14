@@ -18,6 +18,10 @@ Instruções
 
 - Seu CSS não deverá ser inline (no arquivo HTML não deverá conter qualquer tipo de estilo). Todos os estilos devem estar num arquivo CSS externos ao HTML.
 
+- A barra azul contendo o logo do ContaAzul (top-bar) deve ser fixa (não rolar com a página).
+
+- As pseudo-classes hover, focus e active nos botões devem deixá-los com 75% de sua opacidade.
+
 - Crie um diretório chamado prototype. Todos os arquivos que você criar devem estar nesse diretório. Se achar necessário, subdivida o diretório da maneira que achar melhor.
 
 - Assim que concluído o desafio, abra um pull request com suas alterações e envie um email para domphysis@contaazul.com entitulado Trainee Challenge: HTML/CSS contendo o link para o 
@@ -30,7 +34,7 @@ Dicas
 
 - No diretório guidelines você encontra o código hexadecimal de todas as cores usadas no mockup.
 
-- No diretório mockup você encontra a imagem mockup-grided. Essa imagem exibe um grid onde cada quadrado equivale a 10 pixels (horizontal/vertical).
+- No diretório mockup você encontra a imagem mockup-grided. Essa imagem exibe um grid onde cada quadrado equivale a 10 pixels (horizontal/vertical) facilitando assim a definição de margin e padding.
 
 - No diretório images você encontra o logo do ContaAzul usado no mockup.
 

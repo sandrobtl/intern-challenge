@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f1f4f9;
+	background-position: center -1px;
+	background-repeat: no-repeat;
+	background-image: url(mockup.png);
+}
+
+body.grided {
+	background-image: url(mockup-grided.png);
+}

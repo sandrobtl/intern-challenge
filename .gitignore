@@ -122,3 +122,6 @@ jboss/server/minimal/work/**/*
 
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
+
+#node-modules
+prototype/*node_modules

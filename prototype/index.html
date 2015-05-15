@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Desafio Interno: Estilo ContaAzul - Sandro Bertelli</title>
+		<link rel="stylesheet" href="assets/css/index.min.css" />	
+		<link rel="stylesheet" href="https://cdn.contaazul.com/static/dependencies/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="https://cdn.contaazul.com/static/css/contaazul.css" />
+	</head>
+	<body>
+		<div class="header-bar">
+			<div class="container">
+				<img src="https://github.com/ContaAzul/intern-challenge/blob/master/images/logo-ca.png?raw=true" />
+			</div>
+		</div>
+		<div class="container">
+			<div class="row vertical-offset9">
+				<div class="span4">
+					<ul class="nav-list">
+						<li class="bottom-offset1 nav-list-item"><a class="nav-list-link" href="https://app.contaazul.com.br/#/visao-geral">Início </a> &rsaquo; </li>
+						<li class="nav-list-item"><a class="nav-list-link" href="https://app.contaazul.com.br/#/financeiro/contas-bancarias?source=Menu%20Principal"> Conta Bancária </a> &rsaquo; </li>
+						<li class="nav-list-item"> Nova</li>
+					</ul>
+				</div>
+			</div>
+			<form action="./" method="get">
+				<div class="grid">
+					<div class="container-content">
+						<div class="offset1 bottom-offset2">
+							<div class="row vertical-offset8">
+								<h3 class="span3">CONTA BANCÁRIA</h3>
+							</div>
+							<div class="row vertical-offset6 bottom-offset1">
+								<hr class="span10" />
+							</div>
+							<fieldset>
+								<div class="row">
+									<div class="span4">
+										<label for="bank-label">Nome do Banco</label>
+									</div>
+									<div class="span4">
+										<label>Tipo de Conta</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="span4">
+										<input class="input-xlarge" id="bank-label" type="text" name="bank" placeholder="Digite qui o nome do banco" onfocus=this.placeholder='' />
+									</div>
+									<div class="span4">
+										<label class="radio inline">
+											<input type="radio" name="account-type" value="Pessoa Física" checked="checked" /> Pessoa Física
+										</label>
+										<label class="radio inline offset2">
+											<input type="radio" name="account-type" value="Pessoa Jurídica" /> Pessoa Jurídica
+										</label>
+									</div>
+								</div>
+								<div>
+									<div class="row vertical-offset5">
+										<label class="span1" for="bank-description">Descrição</label>
+									</div>
+									<div class="row">
+										<div class="span7">
+											<input class="text-input input-xxlarge" id="bank-description" type="text" name="description" placeholder="Digite aqui uma curta descrição para o banco" onfocus=this.placeholder='' />
+										</div>
+									</div>
+								</div>
+							</fieldset>
+							<div class="row vertical-offset6 bottom-offset1">
+								<hr class="span10" />
+							</div>
+							<div class="row">
+								<p class="span8">Você deve optar por definir um saldo inicial. Este valor aparecerá como seu primeiro lançamento.</p>
+							</div>
+							<fieldset>
+								<div class="row">
+									<div class="span4">
+										<label for="balance">Saldo</label>
+									</div>
+									<div class="span4">
+										<label for="balance-date">Data</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="span4">
+										<input class="input-xlarge" id="balance" type="text" name="initial-balance" placeholder="Informe aqui o valor do saldo inicial" onfocus=this.placeholder='' />
+									</div>
+									<div class="span4">
+										<input  class="input-xlarge text-input" id="balance-date" type="text" name="date" placeholder="Informe aqui a data do saldo inicial" onfocus=this.placeholder='' />
+									</div>
+								</div>
+							</fieldset>
+						</div>
+					</div>
+					<div class="row vertical-offset5">
+					 	<div class="span2">
+							<button class="flat-btn button" type="button">Cancelar</button>
+						</div>
+						<div class="span8">
+							<button class="btn flat-btn button-add-account" type="submit">Salvar esta conta e adicionar outra</button> 
+						</div>
+						<div class="span2">
+							<button class="flat-btn flat-btn-primary button" type="submit">Salvar</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="footer vertical-offset7">
+			<img class="vertical-offset4" src="https://raw.githubusercontent.com/ContaAzul/intern-challenge/fe7adf9f58cd55c92d8569edef666d7dd7d7da68/images/logo-ca-footer.png" />
+		</div>
+	</body>
+</html>

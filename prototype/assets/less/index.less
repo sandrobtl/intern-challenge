@@ -1,0 +1,48 @@
+﻿@import (reference) "_dg-variables.less";
+@color-blue: #2687E9;
+@color-blue-dark: #385A7B;
+@color-grey: #F1F4F9;
+@color-grey-light: #FCFDFE;
+@color-grey-semi-dark: #C9D3DD; 
+body {
+	font-family: @font-family-primary, sans-serif;
+}
+.grid [class*="span"] {
+	margin: 20px 0 0 20px;
+}
+.header-bar {
+ 	background-color: @color-blue;
+    padding: 15px 0;	
+  	position: fixed;
+  	width: 100%;
+  	z-index: 100;
+}
+.nav-list {
+	list-style-type: none;
+	margin-left: -15px;
+}
+.nav-list-item {
+	float: left;
+}
+.nav-list-link {
+	color: @color-blue;
+	text-decoration: none;
+}
+.container-content {
+	background-color: @color-grey-light;
+	border: 1px solid @color-grey-semi-dark;
+	clear: left;
+}
+.button{
+	width: 140px;
+}
+.button-add-account{
+	margin-left: 320px; 
+	width: 300px;
+}
+.footer {
+	border-top: 1px solid @color-grey-semi-dark;
+	height: 60px;
+	text-align: center;
+	width: 100%;
+}

@@ -125,3 +125,6 @@ jboss/server/minimal/work/**/*
 
 #node_modules
 node_modules/
+
+#web_fonts
+prototype/assets/webfonts

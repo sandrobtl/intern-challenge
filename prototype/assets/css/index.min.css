@@ -28,6 +28,9 @@ body {
   border: 1px solid #c9d3dd;
   clear: left;
 }
+.text-input {
+  height: 40px !important;
+}
 .button {
   width: 140px;
 }

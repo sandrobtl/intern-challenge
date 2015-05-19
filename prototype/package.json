@@ -1,7 +1,4 @@
 {
-  "name": "ca-style",
-  "version": "1.0.0",
-  "author": "sandro bertelli",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-less": "^1.0.1",

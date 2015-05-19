@@ -3,7 +3,7 @@
   background-color: #f1f4f9;
 }
 .grid [class*="span"] {
-  margin: 10px 20px 0 20px;
+  margin: 10px 20px 0;
 }
 .header-bar {
   background-color: #2687e9;
@@ -18,31 +18,41 @@
 }
 .nav-list-item {
   float: left;
+  margin: 0 5px 30px;
 }
 .nav-list-link {
   color: #2687e9;
-  text-decoration: none;
 }
 .container-content {
   background-color: #fcfdfe;
   border: 1px solid #c9d3dd;
   clear: left;
 }
-.row h3 {
+.content-title {
   font-weight: lighter;
 }
-.row .text-input {
-  height: 30px;
+.line {
+  width: 740px;
 }
-.large-input {
+.text-input.large-input {
+  padding: 10px;
   width: 300px;
 }
+.text-input.xlarge-input {
+  padding: 10px;
+  width: 540px;
+}
+.radio-distance {
+  margin-right: 60px;
+}
 .button {
+  font-weight: normal;
   width: 140px;
 }
 .button-add-account {
-  margin-left: 320px;
+  font-weight: normal;
   width: 300px;
+  margin-left: 320px;
 }
 .footer {
   border-top: 1px solid #c9d3dd;

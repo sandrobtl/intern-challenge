@@ -1,12 +1,9 @@
-﻿@color-blue: #2687E9;
-@color-grey: #F1F4F9;
-@color-grey-light: #FCFDFE;
-@color-grey-semi-dark: #C9D3DD;
+﻿@import (reference) '_dg-variables.less';
 .page{
 	background-color: @color-grey;
 }
 .grid [class*="span"] {
-	margin: 10px 20px 0 20px;
+	margin: 10px 20px 0;
 }
 .header-bar {
  	background-color: @color-blue;
@@ -21,31 +18,45 @@
 }
 .nav-list-item {
 	float: left;
+	margin: 0 5px 30px;
 }
 .nav-list-link {
-	color: @color-blue;
-	text-decoration: none;
+	color: @color-blue;;
 }
 .container-content {
 	background-color: @color-grey-light;
 	border: 1px solid @color-grey-semi-dark;
 	clear: left;
 }
-.row h3 {
+.content-title {
 	font-weight: lighter;
 }
-.row .text-input {
-	height: 30px;
+.line {
+	width: 740px;
 }
-.large-input{
-	width: 300px;
+.text-input-style (@text-input-width: 300px) {
+	padding: 10px;
+	width: @text-input-width;
+}
+.text-input.large-input {
+	.text-input-style;
+}
+.text-input.xlarge-input {
+	.text-input-style(540px);
+}
+.radio-distance {
+	margin-right: 60px;
+}
+.buttons (@button-width: 140px) {
+	font-weight: normal;
+	width: @button-width; 
 }
 .button{
-	width: 140px;
+	.buttons;
 }
 .button-add-account{
+	.buttons(300px);
 	margin-left: 320px; 
-	width: 300px;
 }
 .footer {
 	border-top: 1px solid @color-grey-semi-dark;

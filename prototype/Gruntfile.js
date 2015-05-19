@@ -4,7 +4,6 @@ module.exports = function(grunt) {
   pathLess = pathAssets + 'less/';
   
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
 
   less : {
     development: {

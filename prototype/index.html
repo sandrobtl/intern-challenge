@@ -2,10 +2,10 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>Desafio Interno: Estilo ContaAzul - Sandro Bertelli</title>
-		<link rel="stylesheet" href="assets/css/index.min.css" />	
+		<title>Desafio Interno: Estilo ContaAzul - Sandro Bertelli</title>	
 		<link rel="stylesheet" href="https://cdn.contaazul.com/static/dependencies/bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" href="https://cdn.contaazul.com/static/css/contaazul.css" />
+		<link rel="stylesheet" href="assets/css/index.min.css" />
 	</head>
 	<body class="page">
 		<div class="header-bar">
@@ -15,11 +15,13 @@
 		</div>
 		<div class="container">
 			<div class="row vertical-offset9">
-				<div class="span4">
+				<div class="span6">
 					<ul class="nav-list">
-						<li class="bottom-offset1 nav-list-item"><a class="nav-list-link" href="https://app.contaazul.com.br/#/visao-geral">Início </a> &rsaquo; </li>
-						<li class="nav-list-item"><a class="nav-list-link" href="https://app.contaazul.com.br/#/financeiro/contas-bancarias?source=Menu%20Principal"> Conta Bancária </a> &rsaquo; </li>
-						<li class="nav-list-item"> Nova</li>
+						<li class="nav-list-item"><a class="nav-list-link" href="https://app.contaazul.com.br/#/visao-geral">Início</a></li>
+						<li class="nav-list-item">&rsaquo;</li>
+						<li class="nav-list-item"><a class="nav-list-link" href="https://app.contaazul.com.br/#/financeiro/contas-bancarias?source=Menu%20Principal">Conta Bancária</a></li>
+						<li class="nav-list-item">&rsaquo;</li>
+						<li class="nav-list-item">Nova</li>
 					</ul>
 				</div>
 			</div>
@@ -28,10 +30,10 @@
 					<div class="container-content">
 						<div class="offset1 bottom-offset2">
 							<div class="row vertical-offset8">
-								<h3 class="span3">CONTA BANCÁRIA</h3>
+								<h3 class="span3 content-title">CONTA BANCÁRIA</h3>
 							</div>
 							<div class="row vertical-offset7 bottom-offset1">
-								<hr class="span10" />
+								<hr class="span10 line" />
 							</div>
 							<fieldset>
 								<div class="row">
@@ -47,27 +49,29 @@
 										<input class="text-input large-input" id="bank-label" type="text" name="bank" placeholder="Digite qui o nome do banco" onfocus=this.placeholder='' />
 									</div>
 									<div class="span4">
-										<label class="radio inline">
+										<label class="radio-distance radio inline">
 											<input type="radio" name="account-type" value="Pessoa Física" checked="checked" /> Pessoa Física
 										</label>
 										<label class="radio inline offset2">
-											<input type="radio" name="account-type" value="Pessoa Jurídica" /> Pessoa Jurídica
+											<input type="radio" name="account-type" value="Pessoa Jurídica" />Pessoa Jurídica
 										</label>
 									</div>
 								</div>
 								<div>
 									<div class="row vertical-offset5">
-										<label class="span1" for="bank-description">Descrição</label>
+										<div class="span1">
+											<label for="bank-description">Descrição</label>
+										</div>
 									</div>
 									<div class="row">
 										<div class="span7">
-											<input class="text-input input-xxlarge" id="bank-description" type="text" name="description" placeholder="Digite aqui uma curta descrição para o banco" onfocus=this.placeholder='' />
+											<input class="text-input xlarge-input" id="bank-description" type="text" name="description" placeholder="Digite aqui uma curta descrição para o banco" onfocus=this.placeholder='' />
 										</div>
 									</div>
 								</div>
 							</fieldset>
 							<div class="row vertical-offset6 bottom-offset1">
-								<hr class="span10" />
+								<hr class="span10 line" />
 							</div>
 							<div class="row">
 								<p class="span8">Você deve optar por definir um saldo inicial. Este valor aparecerá como seu primeiro lançamento.</p>
@@ -86,7 +90,7 @@
 										<input class="text-input large-input" id="balance" type="text" name="initial-balance" placeholder="Informe aqui o valor do saldo inicial" onfocus=this.placeholder='' />
 									</div>
 									<div class="span4">
-										<input  class="text-input large-input" id="balance-date" type="text" name="date" placeholder="Informe aqui a data do saldo inicial" onfocus=this.placeholder='' />
+										<input class="text-input large-input" id="balance-date" type="text" name="date" placeholder="Informe aqui a data do saldo inicial" onfocus=this.placeholder='' />
 									</div>
 								</div>
 							</fieldset>
@@ -98,7 +102,7 @@
 						<button class="flat-btn button" type="button">Cancelar</button>
 					</div>
 					<div class="span8">
-						<button class="btn flat-btn button-add-account" type="submit">Salvar esta conta e adicionar outra</button> 
+						<button class="flat-btn button-add-account" type="submit">Salvar esta conta e adicionar outra</button> 
 					</div>
 					<div class="span2">
 						<button class="flat-btn flat-btn-primary button" type="submit">Salvar</button>

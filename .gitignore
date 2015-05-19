@@ -123,8 +123,6 @@ jboss/server/minimal/work/**/*
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
 
-#node_modules
 node_modules/
 
-#web_fonts
 prototype/assets/webfonts

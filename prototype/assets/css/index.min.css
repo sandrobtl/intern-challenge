@@ -12,15 +12,15 @@
   width: 100%;
   z-index: 100;
 }
-.nav-list {
-  list-style-type: none;
-  margin-left: -15px;
+.breadcrumb.breadcrumb-container {
+  margin-left: 0;
+  padding-left: 0;
 }
-.nav-list-item {
+.breadcrumb-item {
   float: left;
   margin: 0 5px 30px;
 }
-.nav-list-link {
+.breadcrumb-link {
   color: #2687e9;
 }
 .container-content {
@@ -42,7 +42,7 @@
   padding: 10px;
   width: 540px;
 }
-.radio-distance {
+.offset {
   margin-right: 60px;
 }
 .button {

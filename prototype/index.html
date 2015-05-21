@@ -16,12 +16,12 @@
 		<div class="container">
 			<div class="row vertical-offset9">
 				<div class="span6">
-					<ul class="nav-list">
-						<li class="nav-list-item"><a class="nav-list-link" href="https://app.contaazul.com.br/#/visao-geral">Início</a></li>
-						<li class="nav-list-item">&rsaquo;</li>
-						<li class="nav-list-item"><a class="nav-list-link" href="https://app.contaazul.com.br/#/financeiro/contas-bancarias?source=Menu%20Principal">Conta Bancária</a></li>
-						<li class="nav-list-item">&rsaquo;</li>
-						<li class="nav-list-item">Nova</li>
+					<ul class="breadcrumb breadcrumb-container">
+						<li class="breadcrumb-item"><a class="breadcrumb-link" href="https://app.contaazul.com.br/#/visao-geral">Início</a></li>
+						<li class="breadcrumb-item">&rsaquo;</li>
+						<li class="breadcrumb-item"><a class="breadcrumb-link" href="https://app.contaazul.com.br/#/financeiro/contas-bancarias?source=Menu%20Principal">Conta Bancária</a></li>
+						<li class="breadcrumb-item">&rsaquo;</li>
+						<li class="breadcrumb-item">Nova</li>
 					</ul>
 				</div>
 			</div>
@@ -46,13 +46,13 @@
 								</div>
 								<div class="row">
 									<div class="span4">
-										<input class="text-input large-input" id="bank-label" type="text" name="bank" placeholder="Digite qui o nome do banco" onfocus=this.placeholder='' />
+										<input class="text-input large-input" id="bank-label" type="text" name="bank" placeholder="Digite qui o nome do banco" />
 									</div>
 									<div class="span4">
-										<label class="radio-distance radio inline">
+										<label class="offset radio inline">
 											<input type="radio" name="account-type" value="Pessoa Física" checked="checked" /> Pessoa Física
 										</label>
-										<label class="radio inline offset2">
+										<label class="radio inline">
 											<input type="radio" name="account-type" value="Pessoa Jurídica" />Pessoa Jurídica
 										</label>
 									</div>
@@ -65,7 +65,7 @@
 									</div>
 									<div class="row">
 										<div class="span7">
-											<input class="text-input xlarge-input" id="bank-description" type="text" name="description" placeholder="Digite aqui uma curta descrição para o banco" onfocus=this.placeholder='' />
+											<input class="text-input xlarge-input" id="bank-description" type="text" name="description" placeholder="Digite aqui uma curta descrição para o banco" />
 										</div>
 									</div>
 								</div>
@@ -87,10 +87,10 @@
 								</div>
 								<div class="row">
 									<div class="span4">
-										<input class="text-input large-input" id="balance" type="text" name="initial-balance" placeholder="Informe aqui o valor do saldo inicial" onfocus=this.placeholder='' />
+										<input class="text-input large-input" id="balance" type="text" name="initial-balance" placeholder="Informe aqui o valor do saldo inicial" />
 									</div>
 									<div class="span4">
-										<input class="text-input large-input" id="balance-date" type="text" name="date" placeholder="Informe aqui a data do saldo inicial" onfocus=this.placeholder='' />
+										<input class="text-input large-input" id="balance-date" type="text" name="date" placeholder="Informe aqui a data do saldo inicial" />
 									</div>
 								</div>
 							</fieldset>
